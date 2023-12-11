@@ -7,14 +7,14 @@ export default NextAuth({
   // Configure one or more authentication providers
   providers: [
     GoogleProvider({
-      clientId: process.env.GOOGLE_CLIENT_ID,
-      clientSecret: process.env.GOOGLE_CLIENT_SECRET
+      clientId: "383089756562-nfrtqodcihq4opk866rgggetbf9nauba.apps.googleusercontent.com",
+      clientSecret: "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"
     }),
     // ...add more providers here
     AzureADProvider({
-      clientId: process.env.AZURE_AD_CLIENT_ID,
-      clientSecret: process.env.AZURE_AD_CLIENT_SECRET,
-      tenantId: process.env.AZURE_AD_TENANT_ID,
+      clientId: "417b5c15-a1e2-420a-8365-6808a28a97a2",
+      clientSecret: "wFB8Q~tHjOOYGq9kUOgrFy8qoyGCSys7Wz3eQdq9",
+      tenantId: "a8eec281-aaa3-4dae-ac9b-9a398b9215e7",
     }),
   ],
 });
